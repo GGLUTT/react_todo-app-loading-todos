@@ -26,7 +26,7 @@ export const TodoList: React.FC<Props> = ({ todos }) => {
                 checked={todo.completed}
               />
             </label>
-{/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
+            {/* eslint-disable-next-line jsx-a11y/label-has-associated-control */}
 
             <span data-cy="TodoTitle" className="todo__title">
               {todo.title}
